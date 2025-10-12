@@ -1,0 +1,75 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
+
+ {
+    box-sizing: border-box;
+}
+
+html,body{
+	font-size: 16px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.introduction{ 
+	text-align:center; 
+	 font-family: "Times New Roman", Times, sans-serif;
+	width: 100%;
+}
+.by-line{
+	font-style: italic;
+	color: darkgrey;
+}
+
+
+.header-img {
+	width:100%;
+}
+
+/*img {
+  display:block;
+  width:100%;
+  margin: 0 auto;
+}
+*/
+
+
+
+
+@media(min-width: 681px) {
+    /* Any adjustments for tablets and larger go here.
+    Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */ 
+
+.article{
+	max-width: 800px;
+	margin: 0 auto;
+}
+    .icon-img{
+      display: flex;
+      flex-direction: row;
+      justify-content: left;
+      align-text: left;
+      clear:right;
+
+    }
+
+.icon-thing {
+	width:20%;
+	margin-right:auto;
+	align-content: left;
+}
+
+/*.icon-text{
+	font-size: 30;
+	position: relative;
+	top: 50px;
+	background-color: greenyellow;
+	height:50px;
+	align-items: left;
+	text-align: left;
+	justify-content: left;
+	clear:right;
+	}
+*/
+
+
+}
